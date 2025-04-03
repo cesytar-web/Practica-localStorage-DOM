@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="es">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formulario de Contacto</title>
+        <script src="script.js" defer></script>
+      </head>
+      <body>
+        <form>
+          <h1>Formulario de Contacto</h1>
+
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Correo:</label>
+          <input type="text" id="email" name="email" required />
+
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <label for="imagenUrl">URL Imagen:</label>
+          <input type="url" id="imagenUrl" name="imagenUrl" />
+
+          <button type="submit">Enviar</button>
+        </form>
+
+        
+        <div id="resultado"></div> <!--div contenedor para mostrar contacto -->
+
+        <!--Boton para borrar contactos-->
+        <button id="borrarContactos">Borrar Contactos</button>
+
+  </body>
+</html>
